@@ -30,3 +30,8 @@ function toonUitkomst() {
     
     document.getElementById("resultaat").innerHTML = resultaat;
 }
+
+function resetChoices() {
+    document.getElementById("categorie").selectedIndex = 0;
+    document.getElementById("resultaat").innerHTML = "";
+}
