@@ -1,3 +1,4 @@
+@media screen and ( max-width: 600px) {
 body {
     background-color: #1a202c;
     color: white;
@@ -324,7 +325,7 @@ header {
     top: 56%;
     right: 18.5%;
 }
-
+}
 
 
 
