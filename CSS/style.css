@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-.container {
+.container-vier {
     background: #2d3748;
     padding: 20px;
     border-radius: 10px;
@@ -144,35 +144,59 @@ button.secondary:hover {
     font-weight: bold;
 }
 
-.navbar {
+.navbar-container {
     background-color: #001f3f;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
+    width: 100%;
+    height: 15%;
     position: absolute;
-    top: 20%;
-    right: 3%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 0;
 }
+
+.navbar {
+    background-color: #001f3f; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 20px; 
+    position: absolute; 
+    top: 15%; 
+    right: 3%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 450px;
+    height: 50px;
+}
+
 .navbar a {
     color: white;
     text-decoration: none;
     padding: 14px 20px;
 }
+
 .navbar a:hover {
     background-color: #003366;
     border-radius: 5px;
 }
+
 .menu {
     display: flex;
 }
+
 .menu-icon {
     display: none;
     font-size: 25px;
     color: white;
     cursor: pointer;
 }
+
+body {
+    padding-top: 60px; /* Voorkomt dat de navbar over de content heen valt */
+}
+
 
 .image-container {
     position: absolute;
@@ -192,7 +216,7 @@ button.secondary:hover {
 .second-image {
     position: absolute;
     top: -4%;
-    left: 37%;
+    left: 35%;
     transform: translateX(-10%) scale(0.5);
     opacity: 0;
     z-index: 1100;
@@ -324,6 +348,146 @@ header {
     text-align: center;
     top: 56%;
     right: 18.5%;
+}
+
+.container {
+    background-color: #000;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+.functies {
+    list-style: none;
+    padding: 0;
+}
+.functies li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+#tekst-onder {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#hoofd-tekst {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 6.5%;
+    font-size: 20px;
+}
+
+.home-page {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+    border: 2px solid #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+.container-twee {
+    background-color: #001f3f;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    right: 6%;
+    top: 30%;
+}
+
+.regels-algemeen {
+    list-style: none;
+    padding: 0;
+}
+.regels-algemeen li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+#tekst-onder2 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.container-drie {
+    background-color: #000;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    right: 6%;
+    bottom: -60%;
+}
+
+.container-vijf {
+    background-color: #001f3f;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    right: 6%;
+    bottom: -91%;
+}
+
+.container-zes {
+    background-color: #000;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    right: 6%;
+    bottom: -145%;
+}
+
+iframe {
+    position: absolute;
+    bottom: -86%;
+    left: 6%;
+    width: 50%;
+    height: 65%;
 }
 }
 
