@@ -12,20 +12,18 @@
 
     <h1 id="titel-intern">Interne Zaken</h1>
 
-    <header>
-        <nav>
-           <nav class="navbar">
-               <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-               <div class="menu" id="menu">
-                   <a href="index.html">Home</a>
-                   <a href="#">Diensten</a>
-                   <a href="overtredingen.html">Overtredingen</a>
-                   <a href="overons.html">Over Ons</a>
-               </div>
-           </nav>
-       </nav>   
-   </header>
-    <div class="container">
+    <div class="navbar-container">
+        <nav class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="menu" id="menu">
+                <a href="index.html">Home</a>
+                <a href="diensten.html">Diensten</a>
+                <a href="overtredingen.html">Overtredingen</a>
+                <a href="overons.html">Over Ons</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container-vier">
         <h2>KIES EEN OVERTREDING <br> ↓</h2>
         <select id="categorie">
             <option value="sanctie1">Lichte overtredingen (kleine interne misstanden)</option>
@@ -36,7 +34,7 @@
         <div>
             <button class="primary" onclick="toonUitkomst()">Toon sancties</button>
             <button class="secondary" onclick="resetChoices()">Reset</button>
-        </div>
+    </div>
         <img draggable="false" class="politie" src="IMG/politie logo.png" alt="politie">
     </div>
 
